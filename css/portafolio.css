@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.jmp{
+    background-color: rgb(74, 
+74, 74);
+    width: 80px;
+    height: 80px;
+    background-image: url(../Media/isologo\ jmp.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 17px;
+    border-radius: 50%;
+    transition: 0.5s;
+    position: absolute;
+    left: 20px;
+  
+}
+.jmp:hover{
+
+    background-size: 70%;
+    border-radius: 50%;
+}
+.jmp2{
+    background-color: rgb
+(74, 74, 74);
+width: 100px;
+height: 100px;
+ background-image: url(../Media/j.png);
+background-size: 100%;
+background-repeat: 
+no-repeat;
+background-position: 
+revert-layer;
+margin-top: -17px;
+border-radius: 50%;
+transition: 0.5s;
+position: absolute;
+right: 60px;
+}
+
+
+.jmp2:hover{
+    background-size: 160%;
+    border-radius: 50%;
+}
+.textos{
+    text-align: center;
+}
+.caja_titulo{
+        display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   width: 100%;
+   background-color: #ffffff;
+   padding-bottom: 12px;
+   padding-top: 12px;
+   padding: 20px 0;
+}
+{
+// <weight>: Use a value from 
+200 to 1000
+// <uniquifier>: Use a unique 
+and descriptive class name
+
+
+.nunito-<uniquifier> 
+  font-family: "Nunito", 
+sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.tl1{
+     color: rgb(74, 74, 74);
+ text-align: center;
+ margin: 0;
+ font-size: 40px;
+ font-family: "Nunito";
+ font-weight: 200;
+   
+
+}
+.tl2{
+        color: rgb(74, 74, 74);
+ text-align:center;
+ margin: 0;
+ font-size: 15px;
+ font-family: "Nunito";
+ font-weight: 200;
+ margin-top: -7px;
+
+
+}
+.tl3{
+    font-family: "Nunito";
+        color: rgb(205, 205, 205);
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+    font-family: "Nunito";
+    font-weight: 200;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.menu1{
+    display: flex;
+justify-content: center;
+background-color: rgb(74, 74, 
+74);
+padding: 10px 0;
+width: 100%;
+}
+.btnm1{
+  background: #e0e0e0;
+    width: 120px;
+    height: 40px;
+    border-radius: 9px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(74, 74, 74);
+    font-family: "Nunito";
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.btnm1 a{
+display: block;
+    width: 100%;
+    height: 100%;
+    color: rgb(74, 74, 74);
+}
+.btnm1:hover{
+    box-shadow: inset 10px 10px 
+    30px #bcbcbc,inset -10px 
+    -10px 30px#ffffff;
+}
+.t_pq{
+    width: 250px;
+    height: 250px;
+    background-color: #8cc63f;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.t_pq:hover{
+    transform: scale(1.05);
+}
+.t_pq::after{
+    content: "Ver proyecto";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.t_pq:hover::after{
+    opacity: 1;
+}
+.t1{
+    background-image: url(../Media/banner\ Tessi\ linkedin\ 2.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.t2{
+    background-image: url(../Media/Cancelación-de-hipotecas-Bancolombia-Bienvenidos.jpg);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.t3{
+     background-image: url(../Media/Equipo-coninsa.jpg);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.t4{
+    background-image: url(../Media/Equipo-cancelación-de-hipotecas-tipo-meme.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.t5{
+    background-image: url(../Media/cartas\ art\ deco.jpg);
+    background-repeat: 
+    no-repeat;
+    background-position: 
+    cover;
+}
+.t6{
+    background-image: url(../Media/brand\ guideline\ scorp.jpg);
+    background-repeat: 
+    no-repeat;
+    background-position: 
+    cover;
+}
+.descripciones{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    background-color: rgb(207, 210, 212);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#desc_t1:target{
+    display: flex;
+}
+#desc_t1 .t_gr{
+    background-image: url(../Media/banner\ Tessi\ linkedin\ 2.gif);
+}
+
+#desc_t2 .t_gr{
+    background-image: url(../Media/Cancelación-de-hipotecas-Bancolombia-Bienvenidos.jpg);
+}
+
+#desc_t3 .t_gr{
+    background-image: url(../Media/Equipo-coninsa.jpg)
+}
+
+#desc_t4 .t_gr{
+    background-image: url(../Media/Equipo-cancelación-de-hipotecas-tipo-meme.jpg);
+}
+
+#desc_t5 .t_gr{
+    background-image: url(../Media/cartas\ art\ deco.jpg);
+}
+
+#desc_t6 .t_gr{
+    background-image: url(../Media/brand\ guideline\ scorp.jpg);
+}
+.t_gr{
+    width: 500px;
+    height: 500px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+}
+
+#desc_t1:target,
+#desc_t2:target,
+#desc_t3:target,
+#desc_t4:target,
+#desc_t5:target,
+#desc_t6:target{
+    display: flex;
+}
+.tx_desc{
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+.menu2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(74, 74, 74);
+        font-family: "Nunito",
+sans-serif;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.t_desc{
+    font-family: "Nonito",
+    sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color:  rgb(74, 74, 74);
+}
+.t_p_desc{
+     font-family: "Nonito",
+ sans-serif;
+ font-size: 18px;
+ font-weight: 200;
+ color:  rgb(74, 74, 74);
+ text-align: justify;
+}
+.btnm2{
+   
+}
+.titulo3 {
+    background-color:  rgb(74, 
+74, 74);
+    color: rgb(74, 74, 74);
+font-family: "Nunito", 
+sans-serif;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+    color: #ffffff;
+    padding-bottom: 7px;
+}
+.footer{
+    background-color: rgb(74, 74, 74);
+    color: white;
+    padding: 30px 20px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 27px;
+}
+
+.footer-contenido{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-bloque{
+    margin: 15px;
+}
+
+.footer-titulo{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-bloque ul li{
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.footer a{
+    color: white;
+    transition: 0.3s;
+}
+
+.footer a:hover{
+    color: #bcbcbc;
+}
+
+.footer hr{
+    margin: 20px auto;
+    width: 80%;
+    border: 0.5px solid #ccc;
+}
+
+.footer-copy{
+    text-align: center;
+    font-size: 14px;
+}    
